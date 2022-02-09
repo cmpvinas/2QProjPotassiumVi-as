@@ -1,0 +1,531 @@
+
+body {
+	background-image: linear-gradient(to bottom, #270037, #773860);
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.banner {
+	background-color: #1A022C;
+	padding: 20px;
+}
+
+.banner img {
+	width: 285px;
+	height: 65px;
+}
+
+body > h1 {
+	text-align: center;
+	color: #c1934e;
+	font-family: 'Crimson Text', serif;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 5px black;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 20px;
+}
+
+h4 {
+	text-align: center;
+	color: white;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 5px black;
+	font-weight: normal;
+}
+
+#film, #similarities, #songs, #images, #buttons, #images1 {
+	margin-right: 50px;
+}
+	
+#cover {
+	height: 190px;
+	width: 380px;
+	border: 3px solid white;
+	margin-top: 10px;
+	margin-bottom: 7px;
+	transition: 2s ease;
+}
+
+#cover:hover {
+	height: 215px;
+	width: 430px;
+	border: 5px solid #dab65e;
+}
+
+#curtaincall {
+	height: 253px;
+	width: 380px;
+	border: 3px solid white;
+	margin-bottom: 7px;
+	transition: 2s ease;
+}
+
+#curtaincall:hover {
+	height: 300px;
+	width: 450px;
+	border: 5px solid #dab65e;
+}
+
+#scene {
+	height: 214px;
+	width: 380px;
+	border: 3px solid white;
+	margin-bottom: 10px;
+	transition: 2s ease;
+}
+
+#scene:hover {
+	height: 250px;
+	width: 445px;
+	border: 5px solid #dab65e;
+}
+
+#buttons h2 {
+	text-align: center; 
+	width: 460px;
+	height: 70px;
+	margin-top: auto;
+	padding-top: 35px;
+	border: 3px solid #c1934e;
+	font-family: 'Crimson Text', serif;
+	font-weight: normal;
+	letter-spacing: 3px;
+	color: #dab65e;
+	background-color: white;
+}
+
+#buttons a {
+	text-decoration: none;
+}
+
+#poster {
+	width: 450px;
+	height: 225px;
+	border: 3px solid white;
+	margin-bottom: 35px;
+	transition: 2s ease;
+}
+
+#poster:hover {
+	width: 500px;
+	height: 250px;
+	border: 5px solid #dab65e;
+}
+
+h3 { 
+    color: #dab65e;
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: normal;
+	background-color: white;
+	width: 350px;
+	height: 50px;
+	margin: auto;
+	padding-top: 15px;
+	border: 3px solid #c1934e;
+}
+
+#buttons h2:hover, h3:hover, .buttons h2:hover {
+	text-decoration: underline;
+}
+
+table.buttons {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+.buttons h2 {
+	text-align: center;
+	color: #fada97;
+	width: auto;
+	height: 50px;
+	margin-top: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: 'Crimson Text', serif;
+	font-weight: normal;
+	letter-spacing: 3px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.tablecomparison div {
+	background-color: #270037;
+	border: 3px solid #c1934e;
+	font-family: 'Crimson Text', serif;
+	vertical-align: top;
+	padding: 15px;
+}
+
+.tablecomparison h2 {
+	font-weight: normal;
+	letter-spacing: 3px;
+	font-size: 35px;
+	color: #dab65e;
+}
+
+.tablecomparison div p, ul {
+	text-align: center;
+	color: white;
+	letter-spacing: 1px;
+	margin: 20px;
+	font-size: 20px;
+}
+
+#scene1, #scene2, #scene3 {
+	height: 206px;
+	width: 384px;
+	border: 3px solid white;
+	margin-top: 10px;
+	margin-bottom: 7px;
+	transition: 2s ease;
+	align-items: center;
+}
+
+#scene4, #scene5, #scene6 {
+	height: 206px;
+	width: 366px;
+	border: 3px solid white;
+	margin-top: 10px;
+	margin-bottom: 7px;
+	transition: 2s ease;
+	align-items: center;
+}
+
+#scene1:hover, #scene2:hover, #scene3:hover {
+	height: 270px;
+	width: 512px;
+	border: 5px solid #c1934e;
+}
+
+#scene4:hover, #scene5:hover, #scene6:hover {
+	height: 270px;
+	width: 480px;
+	border: 5px solid #c1934e;
+}
+
+#songs {
+	border: 3px solid #c1934e; 
+	background-color: #270037;
+	margin-bottom: 50px;
+}
+
+.about div {
+	font-family: 'Crimson Text', serif;
+	padding: 15px;
+}
+
+.about h2 {
+	font-weight: normal;
+	letter-spacing: 3px;
+	font-size: 35px;
+	color: #dab65e;
+}
+
+.about div p {
+	text-align: center;
+	color: white;
+	letter-spacing: 1px;
+	margin: 20px;
+	font-size: 20px;
+}
+
+#scene7, #scene8, #scene9, #scene10, #scene11, #scene12, #scene13 {
+	height: 465px;
+	width: 700px;
+	border: 3px solid white;
+	transition: 2s ease;
+}
+
+#scene7:hover, #scene8:hover, #scene9:hover, #scene10:hover, #scene11:hover, #scene12:hover, #scene13;hover {
+	height: 498px;
+	width: 750px;
+	border: 5px solid #c1934e;
+}
+
+#scene7, #scene9, #scene11, #scene13 {
+	margin-right: 75px;
+}
+
+#scene8, #scene10, #scene12 {
+	margin-left: 30px;
+}
+
+table#cast, th, #cast td {
+	border-collapse: collapse;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #270037;
+	border: 3px solid #c1934e;
+	font-family: 'Crimson Text', serif;
+	font-weight: normal;
+	letter-spacing: 3px;
+}
+
+#cast td {
+	font-size: 20px;
+	color: white;
+}
+
+th {
+	font-size: 15px;
+	color: #dab65e;
+}
+
+#backgroundheader {
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	font-weight: normal;
+	letter-spacing: 3px;
+	color: #dab65e;
+	font-size: 35px;
+}
+
+#replacementsheader {
+	margin-left: 13%;
+	font-family: 'Crimson Text', serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #dab65e;
+	font-size: 20px;
+}
+
+#replacements {
+	margin-left: 15%;
+	margin-bottom: 50px;
+    text-align: left;
+    list-style-position: inside;
+	font-family: 'Crimson Text', serif;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+#christy-derek, #bow, #john-ramin-derek {
+	height: 285px;
+	width: 400px;
+	border: 3px solid white;
+	margin: 25px 100px 0px 50px;
+	transition: 2s ease;
+	align-items: center;
+}
+
+#christy-derek:hover, #bow:hover, #john-ramin-derek:hover {
+    height: 356px;
+	width: 500px;
+	border: 5px solid #c1934e;
+}
+
+#bg-descrip {
+	margin: 75px 15% 50px 15%;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	letter-spacing: 3px;
+	font-size: 20px;
+	color: white;
+}
+
+#recommendations {
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	letter-spacing: 3px;
+	color: #dab65e;
+	font-size: 35px;
+}
+
+#frozen, #newsies, #alicebyheart, #amelie, #hunchback {
+	height: 467px;
+	width: 700px;
+	border: 3px solid white;
+	transition: 2s ease;
+}
+
+#frozen:hover, #newsies:hover, #alicebyheart:hover, #amelie:hover, #hunchback:hover {
+	height: 500px;
+	width: 750px;
+	border: 5px solid #c1934e;
+}
+
+#disney {
+	height: 394px;
+	width: 700px;
+	border: 3px solid white;
+	transition: 2s ease;
+	margin-top: 75px;
+}
+	
+#disney:hover {
+	height: 422px;
+	width: 750px;
+	border: 5px solid #c1934e;
+}
+
+.musicals div {
+	font-family: 'Crimson Text', serif;
+	padding: 15px;
+	width: 750px;
+	height: 500px;
+	float: left;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+.musicals h2 a {
+	font-weight: normal;
+	letter-spacing: 3px;
+	font-size: 35px;
+}
+
+.musicals div p {
+	text-align: center;
+	color: white;
+	letter-spacing: 1px;
+	margin: 20px;
+	font-size: 20px;
+}
+
+.musicals a {
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-decoration: underline;
+}
+
+.musicals a:hover {
+	color: #c1934e;
+	text-decoration: underline;
+}
+
+#references {
+	clear: both;
+	text-align: center;
+}
+
+#references p {
+	font-family: 'Crimson Text', serif;
+	font-size: 25px;
+	color: #dab65e;
+}
+
+#references a {
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+#references a:hover {
+	color: #c1934e;
+	text-decoration: underline;
+}
+
+.icons li {
+	list-style-type: none;
+	display: inline-block; 
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.icons li > a {
+	display: block;
+}
+
+#facebookIcon {
+	background: url(../images/icons.png) no-repeat -716px -565px;
+	width: 25px;
+	height: 48px;
+}
+
+#instagramIcon {
+	background: url(../images/icons.png) no-repeat -815px -565px;
+	width: 49px;
+	height: 49px;
+}
+
+#twitterIcon {
+	background: url(../images/icons.png) no-repeat -930px -566px;
+	width: 58px;
+	height: 48px;
+}
+
+#youtubeIcon {
+	background: url(../images/icons.png) no-repeat -1044px -565px;
+	width: 65px;
+	height: 49px;
+}
+
+#spotifyIcon {
+	background: url(../images/icons.png) no-repeat -1167px -565px;
+	width: 49px;
+	height: 49px;
+}
+
+#facebookIcon:hover {
+	background: url(../images/icons.png) no-repeat -690px -460px;
+	width: 77px;
+	height: 76px;
+}
+
+#instagramIcon:hover {
+	background: url(../images/icons.png) no-repeat -801px -460px;
+	width: 77px;
+	height: 77px;
+}
+
+#twitterIcon:hover {
+	background: url(../images/icons.png) no-repeat -920px -460px;
+	width: 77px;
+	height: 76px;
+}
+
+#youtubeIcon:hover {
+	background: url(../images/icons.png) no-repeat -1038px -460px;
+	width: 76px;
+	height: 76px;
+}
+
+#spotifyIcon:hover {
+	background: url(../images/icons.png) no-repeat -1153px -460px;
+	width: 77px;
+	height: 76px;
+}
+
+.homesections article, .tablecomparison div, .songpage div, .bg-images div {
+	width: 500px;
+	height: 750px;
+	float: left;
+	text-align: center;
+}
+
+.about div {
+	width: 750px;
+	height: 500px;
+	float: left;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#cast {
+	width: 80%;
+	height: 500px;;
+	text-align: center;
+}
+
+article.about, section.homesections, article.songpage, article.tablecomparison, article.background, .bg-images, article.musicals {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
