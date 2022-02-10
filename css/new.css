@@ -245,7 +245,7 @@ a {
 	transition: 2s ease;
 }
 
-#scene7:hover, #scene8:hover, #scene9:hover, #scene10:hover, #scene11:hover, #scene12:hover, #scene13;hover {
+#scene7:hover, #scene8:hover, #scene9:hover, #scene10:hover, #scene11:hover, #scene12:hover, #scene13:hover {
 	height: 498px;
 	width: 750px;
 	border: 5px solid #c1934e;
